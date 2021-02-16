@@ -5,6 +5,7 @@ end
 
 def read_from_hash(hash, key)
   hash_to_read = { hash => key}
+  hash_to_read[key]
   # return the correct value using the hash and key parameters
 end
 
